@@ -1,0 +1,17 @@
+
+  .container-txt {
+    width: 60vw;
+    height: 70em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    color: #173b6c;
+  }
+  
+  .heading {
+    font-weight: 900;
+    font-size: 3vw;
+  
+  }

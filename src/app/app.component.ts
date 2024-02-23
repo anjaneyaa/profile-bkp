@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
+import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'anjaneyaa.github.io';
+  showButton: boolean = false;
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    if (window.pageYOffset > 300) {
+      this.showButton = true;
+    } else {
+      this.showButton = false;
+    }
+  }
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }

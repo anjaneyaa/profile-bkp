@@ -1,0 +1,16 @@
+
+  .vertical-menu {
+    width: 20%;
+    background-color: #040b14;
+    color: white;
+    margin-left: -5px;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+  }
+
+  .vertical-menu a {
+    color: #149ddd;;
+    text-decoration: none;
+  }

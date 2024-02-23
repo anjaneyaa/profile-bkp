@@ -7,21 +7,21 @@ import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent {
-  constructor(private router: Router, private route: ActivatedRoute, private elementRef: ElementRef) { }
+  //constructor(private router: Router, private route: ActivatedRoute, private elementRef: ElementRef) { }
 
-  ngOnInit(): void {
-    this.router.events.subscribe((evt) => {
-      if (!(evt instanceof NavigationEnd)) {
-        return;
-      }
-      const fragment = this.route.snapshot.fragment;
-      if (fragment) {
-        const element = document.getElementById(fragment);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-        }
-      }
-    });
-    this.route.snapshot.fragment = "";
-  }
+  // ngOnInit(): void {
+  //   this.router.events.subscribe((evt) => {
+  //     if (!(evt instanceof NavigationEnd)) {
+  //       return;
+  //     }
+  //     const fragment = this.route.snapshot.fragment;
+  //     if (fragment) {
+  //       const element = document.getElementById(fragment);
+  //       if (element) {
+  //         element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+  //       }
+  //     }
+  //   });
+  //   this.route.snapshot.fragment = "";
+  // }
 }

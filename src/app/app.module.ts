@@ -8,9 +8,9 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { CommunicationComponent } from './communication/communication.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +19,9 @@ import { CommunicationComponent } from './communication/communication.component'
     FooterComponent,
     IntroductionComponent,
     ProjectsComponent,
-    EducationComponent,
     ExperienceComponent,
-    CommunicationComponent
+    CommunicationComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -24,5 +24,6 @@ export class ProjectsComponent {
   //   });
   //   this.route.snapshot.fragment = "";
   // }
+
 }
 

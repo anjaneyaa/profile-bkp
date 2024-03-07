@@ -1,24 +1,41 @@
-<div class="vertical-menu">
+<!-- <div class="vertical-menu">
         <div class="circle">
             <img src="../../assets/img/IMG_2.jpg" alt="image">
             <h4>Anjani Kumar</h4>
-            <!-- <div style="display: inline-block;"> 
-                <a class="social" href=""><i class="bi bi-house-door"></i></a>
-                <a class="social" href=""><i class="bi bi-house-door"></i></a>
-                <a class="social" href=""><i class="bi bi-house-door"></i></a>
-                <a class="social" href=""><i class="bi bi-house-door"></i></a>
-                <a class="social" href=""><i class="bi bi-house-door"></i></a>
-            </div> -->
         </div>
     <div>
         <ul>
-            <li routerLinkActive ="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/" fragment="home"><i class="bi bi-house-door"></i>Home </a></li>
-            <li routerLinkActive ="active"><a routerLink="/about" fragment="about"><i class="bi bi-person"></i>About</a></li>
-            <li routerLinkActive ="active"><a routerLink="/experience" fragment="experience"><i class="bi bi-file-person"></i>Experience</a></li>
-            <li routerLinkActive ="active"><a routerLink="/project" fragment="project"><i class="bi bi-hdd-stack"></i>Project</a></li>
-            <li routerLinkActive ="active"><a routerLink="/contact" fragment="contact"><i class="bi bi-envelope-fill"></i>Contact</a></li>
+            <li routerLinkActive ="active"><a (click)='scrollToSection("home")'><i class="bi bi-house-door"></i>Home </a></li>
+            <li routerLinkActive ="active"><a (click)='scrollToSection("about")'><i class="bi bi-person"></i>About</a></li>
+            <li routerLinkActive ="active"><a (click)='scrollToSection("experience")'><i class="bi bi-file-person"></i>Experience</a></li>
+            <li routerLinkActive ="active"><a (click)='scrollToSection("project")'><i class="bi bi-hdd-stack"></i>Project</a></li>
+            <li routerLinkActive ="active"><a (click)='scrollToSection("contact")'><i class="bi bi-envelope-fill"></i>Contact</a></li>
         </ul>
     </div>
-</div>
-
+</div> 
 <app-footer></app-footer>
+-->
+<!-- <div class="vertical-menu">
+    <div class="circle">
+        <img src="../../assets/img/IMG_2.jpg" alt="image">
+        <h4>Anjani Kumar</h4>
+        <div style="display: inline-block;"> 
+            <a class="social" href=""><i class="bi bi-house-door"></i></a>
+            <a class="social" href=""><i class="bi bi-house-door"></i></a>
+            <a class="social" href=""><i class="bi bi-house-door"></i></a>
+            <a class="social" href=""><i class="bi bi-house-door"></i></a>
+            <a class="social" href=""><i class="bi bi-house-door"></i></a>
+        </div>
+    </div>
+    <div>
+    <ul>
+        <li routerLinkActive ="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/" fragment="home"><i class="bi bi-house-door"></i>Home </a></li>
+        <li routerLinkActive ="active"><a routerLink="/about" fragment="about"><i class="bi bi-person"></i>About</a></li>
+        <li routerLinkActive ="active"><a routerLink="/experience" fragment="experience"><i class="bi bi-file-person"></i>Experience</a></li>
+        <li routerLinkActive ="active"><a routerLink="/project" fragment="project"><i class="bi bi-hdd-stack"></i>Project</a></li>
+        <li routerLinkActive ="active"><a routerLink="/contact" fragment="contact"><i class="bi bi-envelope-fill"></i>Contact</a></li>
+    </ul>
+</div>
+</div> -->
+
+<!-- <app-footer></app-footer> -->

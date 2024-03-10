@@ -5,12 +5,20 @@
       <div class="circle">
         <img src="../../assets/img/IMG_2.jpg" alt="image">
         <h4>Anjani Kumar</h4>
+        <!-- <div style="display: flex;"> 
+          <a class="social" href=""><i class="bi bi-house-door"></i></a>
+          <a class="social" href=""><i class="bi bi-house-door"></i></a>
+          <a class="social" href=""><i class="bi bi-house-door"></i></a>
+          <a class="social" href=""><i class="bi bi-house-door"></i></a>
+          <a class="social" href=""><i class="bi bi-house-door"></i></a>
+      </div>   -->
       </div>
       <div>
         <ul>
           <li routerLinkActive="active"><a (click)='scrollToHome()'><i class="bi bi-house-door"></i>Home </a></li>
           <li routerLinkActive="active"><a (click)='scrollToAbout()'><i class="bi bi-person"></i>About</a></li>
-          <li routerLinkActive="active"><a (click)='scrollToExperience()'><i class="bi bi-file-person"></i>Experience</a></li>
+          <li routerLinkActive="active"><a (click)='scrollToExperience()'><i
+                class="bi bi-file-person"></i>Experience</a></li>
           <li routerLinkActive="active"><a (click)='scrollToProject()'><i class="bi bi-hdd-stack"></i>Project</a></li>
           <li routerLinkActive="active"><a (click)='scrollToContact()'><i class="bi bi-envelope-fill"></i>Contact</a>
           </li>
@@ -50,9 +58,9 @@
         <div class="card-container">
           <div class="card">
             <ul>
-              <li>Microsoft Azure Fundamental Certified. </li>
-              <li>Python & DJango Certified. </li>
-              <li>HTML5 Application Development Fundamentals. </li>
+              <li><b>Microsoft Azure Fundamental Certified. </b></li>
+              <li><b>Python & DJango Certified.</b> </li>
+              <li><b>HTML5 Application Development Fundamentals. </b></li>
             </ul>
           </div>
         </div>
@@ -74,7 +82,7 @@
           </p>
           <div class="card">
             <div class="col-md-12" style="display: flex;">
-              <div class="col-md-6" style="margin: 5px;">
+              <div class="col-md-6" style="padding: 5px;">
                 <div class="">
                   <p>
                     <span class="skill"> Python <i class="val">85%</i></span>
@@ -96,7 +104,7 @@
 
                 </div>
               </div>
-              <div class="col-md-6" style="margin: 5px;">
+              <div class="col-md-6" style="padding: 5px;">
                 <div>
                   <p>
                     <span class="skill">DJango <i class="val">80%</i></span>
@@ -123,94 +131,102 @@
 
       <section class="card-container">
         <h2 class="heading-section" id="experience">Resume</h2>
-        <!-- <h2 class="heading-h2" id="experience">Resume</h2> -->
         <span>
           <p>Complete Resume</p>
-          <span><button class="" tabindex="0">
-              <svg class="download-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
-              </svg>
+          <span><button class="btn btn-info" tabindex="0">
+            <i class="bi bi-download"></i>
               <span>Download</span>
             </button> </span>
         </span>
-        <div class="card">
-          <div>
+        <div class="col-md-12" style="display: flex;">
+          <div class="col-md-6">
             <h3 class="heading-experience-h3">Summary</h3>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
-
-          </div>
-          <div>
+            <div class="card">
+              <h4>ANJANI KUMAR </h4>
+              <ul>
+                <li><b>Full-Stack Developer</b></li>
+                <li>Bangalore, Karnataka, India </li>
+                <li>Date of Birth: 31 December 1996</li>
+              </ul>
+            </div>            
             <h3 class="heading-experience-h3">Education</h3>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
+            <div class="card">
+              <h4>IES COLLEGE OF TECHNOLOGY, BHOPAL, MADHYA PRADESH </h4>
+              <h5><b><i>2015 - 2019</i></b></h5>
+            <span> Degree: <b>Bachelor of Engineering</b></span>
+            <span>Branch: <b>Computer Science Engineering</b></span>
+            </div>
+            <div class="card">
+              <h4>DELHI PUBLIC SCHOOL, RANCHI, JHARKHAND </h4>
+              <h5><b><i>2013 - 2015</i></b></h5>
+            <span> Degree: <b>High School</b></span>
+            <span>Branch: <b>Science with Information Practices</b></span>
+            </div>
+            <div class="card">
+              <h4>JAWAHAR NAVODAYA VIDYALAYA, PATNA, BIHAR </h4>
+              <h5><b><i>2008 - 2013</i></b></h5>
+              <span>Degree: <b>Secondry School</b></span>
+            <span>Branch: <b>Science</b></span>
+            </div>
           </div>
-
-          <div>
+          <div class="col-md-6">
             <h3 class="heading-experience-h3">Professional Experience</h3>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
-            <h4>ANJANI KUMAR </h4>
-            <ul>
-              <li>Full-Stack Developer</li>
-              <li>Bangalore, Karnataka, India </li>
-              <li>Date of Birth: 31 December 1996</li>
-            </ul>
+            <div class="card">
+              <h4>GREENWAY HEALTH</h4>
+              <h5>Software Engineer (December 2021 - Present)</h5>
+              <h5><b><i>Full stack Developer</i></b></h5>
+              <ul>
+                <li>Front End Angular</li>
+                <li>Backend Python. </li>
+                <li>Database postgres.</li>
+                <li>AWS services.</li>
+                <li>CI/CD Pipeline.</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h4>CAPGEMINI </h4>
+              <h5>Associate Consultant (June 2019 - Nov 2021)</h5>
+              <h5><b><i>Full stack Developer</i></b></h5>
+              <ul>
+                <li>Front End Angular</li>
+                <li>Backend Python. </li>
+                <li>Database postgres, My SQL.</li>
+                <li>CI/CD Pipeline.</li>
+                <li>Microsoft Azure Active directory services.</li>
+                <li>Microsoft Graph API services.</li>
+                <li>Microsoft SharePoint services.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="card-container">
-        <h2 class="heading-section" id="project">Projects</h2>
-        <div class="card">
-          <!-- <h2 class="heading-h2" id="project">Projects</h2> -->
-          <div>
+        <h2 class="heading-section" id="project">Projects</h2>   
+        <div class="col-md-12" style="display: flex;">
+          <div class="col-md-6">
+          <div class="card">
             <h4>Revenue Analytics System </h4>
+            <h5>Dec 2022 - Present</h5>
+            <p>A website to analyze the data generated by the different applications & based on the analysis generates the report which can be shared & download across the organization.</p>
             <ul>
               <li>Full-Stack Developer</li>
               <li>Bangalore, Karnataka, India </li>
               <li>Date of Birth: 31 December 1996</li>
             </ul>
-
           </div>
-          <div>
-            <h4>Revenue Analytics System </h4>
+          </div>
+          <div class="col-md-6">
+          <div class="card">
+            <h4>Invertory Record Management</h4>
+            <h5>Sept 2019 - Nov 2022</h5>
+            <p>A website to analyze the data generated by the different applications & based on the analysis generates the report which can be shared & download across the organization.</p>
             <ul>
               <li>Full-Stack Developer</li>
               <li>Bangalore, Karnataka, India </li>
               <li>Date of Birth: 31 December 1996</li>
             </ul>
-
+          </div>
           </div>
         </div>
       </section>
@@ -220,8 +236,8 @@
         <p class="">I would be happy to hear from you.</p>
         <div class="card">
           <ul>
-            <li>Email </li> 85%
-            <li>Call </li>80%
+            <li>Email: </li> {{email}}
+            <li>Call: </li>{{mobile}}
           </ul>
         </div>
       </section>
@@ -236,8 +252,5 @@
   <button class="back-to-top" (click)="scrollToTop()" [hidden]="!showButton"><i
       class="bi bi-caret-up-fill"></i></button>
 </div>
-
-
-
 
 <router-outlet></router-outlet>

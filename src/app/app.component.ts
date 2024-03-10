@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'anjaneyaa.github.io';
   showButton: boolean = false;
   present: number = 0;
+  email: string = "Dubey.Anjani.Kumar@outlook.com";
+  mobile: string = "+91 913 172 0585";
 
   ngOnInit(): void {
     let today = new Date();
